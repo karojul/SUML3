@@ -1,5 +1,5 @@
 streamlit
 pandas
-numpy<2
-torch==2.2.2
-transformers==4.41.2
+numpy
+torch
+transformers
