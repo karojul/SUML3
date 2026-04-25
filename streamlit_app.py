@@ -5,7 +5,7 @@ from transformers import pipeline
 from functions import analyze_sentiment, translate_text
 
 import time
-import matplotlib as plt
+# import matplotlib as plt
 import os
 
 # zaczynamy od zaimportowania bibliotek
