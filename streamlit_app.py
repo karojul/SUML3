@@ -30,6 +30,7 @@ st.set_page_config(
     page_icon="🗣️",
     layout="centered"
 )
+
 st.title('Analiza i tłumaczenie tekstów')
 
 st.header('Instrukcja')
