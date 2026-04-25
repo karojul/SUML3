@@ -8,8 +8,8 @@ def analyze_sentiment(text):
 # f do tłumaczenia na niemiecki
 def translate_text(text):
     translator = pipeline(
-        "text2text-generation",
+        "translation_en_to_de",
         model="Helsinki-NLP/opus-mt-en-de"
     )
     result = translator(text)
-    return result[0]["generated_text"]
+    return result[0]["translation_text"]
