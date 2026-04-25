@@ -3,7 +3,6 @@ import pandas as pd
 import torch
 from transformers import pipeline
 from functions import analyze_sentiment, translate_text
-
 import time
 # import matplotlib as plt
 import os
@@ -21,10 +20,10 @@ import os
 # st.info('Informacja...')
 # st.success('Udało się!')
 
-# st.spinner()
-# with st.spinner(text='Pracuję...'):
-    # time.sleep(2)
-    # st.success('Done')
+st.spinner()
+with st.spinner(text='Ładuję stronę, proszę chwilę zaczekać.'):
+    time.sleep(3)
+    # st.success('Zapraszam!')
 # możemy dzięki temu "ukryć" późniejsze ładowanie aplikacji
 st.set_page_config(
     page_icon="🗣️",
